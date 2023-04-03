@@ -16,6 +16,7 @@
 		D31B04F029D6CB12006FE0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31B04EE29D6CB12006FE0A3 /* LaunchScreen.storyboard */; };
 		D31B04F829D6CB30006FE0A3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B04F729D6CB30006FE0A3 /* data.swift */; };
 		D3B17E7829DAB27F0056450D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B17E7729DAB27F0056450D /* ViewController2.swift */; };
+		D3B17E7A29DAB4950056450D /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B17E7929DAB4950056450D /* myTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D31B04F129D6CB12006FE0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31B04F729D6CB30006FE0A3 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		D3B17E7729DAB27F0056450D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D3B17E7929DAB4950056450D /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				D31B04E229D6CB0F006FE0A3 /* SceneDelegate.swift */,
 				D31B04E429D6CB0F006FE0A3 /* ViewController.swift */,
 				D31B04E629D6CB0F006FE0A3 /* Main.storyboard */,
+				D3B17E7929DAB4950056450D /* myTableViewCell.swift */,
 				D31B04F729D6CB30006FE0A3 /* data.swift */,
 				D31B04EC29D6CB12006FE0A3 /* Assets.xcassets */,
 				D31B04EE29D6CB12006FE0A3 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D31B04E529D6CB0F006FE0A3 /* ViewController.swift in Sources */,
+				D3B17E7A29DAB4950056450D /* myTableViewCell.swift in Sources */,
 				D31B04E129D6CB0F006FE0A3 /* AppDelegate.swift in Sources */,
 				D31B04EB29D6CB0F006FE0A3 /* database.xcdatamodeld in Sources */,
 				D31B04F829D6CB30006FE0A3 /* data.swift in Sources */,

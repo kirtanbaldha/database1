@@ -23,5 +23,11 @@ class ViewController: UIViewController {
             Sqlite.delteData(id: y, name: t2.text!)
         }
     }
+    
+    @IBAction func getData(_ sender: Any) {
+        let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        navigationController?.pushViewController(navigation, animated: true)
+        
+    }
 }
 

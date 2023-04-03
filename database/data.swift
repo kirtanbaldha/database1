@@ -43,7 +43,7 @@ class Sqlite {
        let q = "select name,id from students"
        var get: OpaquePointer?
        sqlite3_prepare(file, q, -1, &get, nil)
-       sqlite3_step(get)
+//       sqlite3_step(get)
        
        while sqlite3_step(get) == SQLITE_ROW{
            let id = sqlite3_column_int64(get, 1)

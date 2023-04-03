@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController2: UIViewController,UITableViewDelegate,UITableViewDataSource {
  
+    var arr2 = Sqlite.getData()
     
 
     @IBOutlet weak var tv: UITableView!
@@ -18,13 +19,18 @@ class ViewController2: UIViewController,UITableViewDelegate,UITableViewDataSourc
 
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return arr2.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tv.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as!
+        let cell = tv.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! myTableViewCell
+        cell.l1.text = arr2[indexPath.row].id.description
+        cell.l2.text = arr2[indexPath.row].name
+        return cell
     }
-    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150
+    }
 
 
 }
