@@ -14,6 +14,8 @@
 		D31B04EB29D6CB0F006FE0A3 /* database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D31B04E929D6CB0F006FE0A3 /* database.xcdatamodeld */; };
 		D31B04ED29D6CB12006FE0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31B04EC29D6CB12006FE0A3 /* Assets.xcassets */; };
 		D31B04F029D6CB12006FE0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31B04EE29D6CB12006FE0A3 /* LaunchScreen.storyboard */; };
+		D31B04F829D6CB30006FE0A3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B04F729D6CB30006FE0A3 /* data.swift */; };
+		D3B17E7829DAB27F0056450D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B17E7729DAB27F0056450D /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D31B04EC29D6CB12006FE0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D31B04EF29D6CB12006FE0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D31B04F129D6CB12006FE0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31B04F729D6CB30006FE0A3 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		D3B17E7729DAB27F0056450D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		D31B04D429D6CB0F006FE0A3 = {
 			isa = PBXGroup;
 			children = (
+				D3B17E7729DAB27F0056450D /* ViewController2.swift */,
 				D31B04DF29D6CB0F006FE0A3 /* database */,
 				D31B04DE29D6CB0F006FE0A3 /* Products */,
 			);
@@ -62,6 +67,7 @@
 				D31B04E229D6CB0F006FE0A3 /* SceneDelegate.swift */,
 				D31B04E429D6CB0F006FE0A3 /* ViewController.swift */,
 				D31B04E629D6CB0F006FE0A3 /* Main.storyboard */,
+				D31B04F729D6CB30006FE0A3 /* data.swift */,
 				D31B04EC29D6CB12006FE0A3 /* Assets.xcassets */,
 				D31B04EE29D6CB12006FE0A3 /* LaunchScreen.storyboard */,
 				D31B04F129D6CB12006FE0A3 /* Info.plist */,
@@ -144,7 +150,9 @@
 				D31B04E529D6CB0F006FE0A3 /* ViewController.swift in Sources */,
 				D31B04E129D6CB0F006FE0A3 /* AppDelegate.swift in Sources */,
 				D31B04EB29D6CB0F006FE0A3 /* database.xcdatamodeld in Sources */,
+				D31B04F829D6CB30006FE0A3 /* data.swift in Sources */,
 				D31B04E329D6CB0F006FE0A3 /* SceneDelegate.swift in Sources */,
+				D3B17E7829DAB27F0056450D /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
