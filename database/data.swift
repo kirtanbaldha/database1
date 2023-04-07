@@ -6,8 +6,6 @@ struct model{
     var id : Int
     var name : String
 }
-
-
 class Sqlite {
     static var file : OpaquePointer?
 
@@ -18,7 +16,6 @@ class Sqlite {
        print(x.path)
        print("Create file")
        createTable()
-           
     }
    static func createTable() {
        let q = "Create Table if not exists Students (name text,id integer)"
@@ -26,8 +23,6 @@ class Sqlite {
        sqlite3_prepare(file, q, -1, &table, nil)
        print("Create table")
        sqlite3_step(table)
-       
-        
     }
     static func addData(id:Int,name:String) {
        let q = "insert into Students values ('\(name)',\(id))"
@@ -35,8 +30,6 @@ class Sqlite {
        sqlite3_prepare(file, q, -1, &data, nil)
        print("Create data")
        sqlite3_step(data)
-       
-        
     }
     static func getData() -> [model] {
        var arr = [model]()
@@ -57,9 +50,6 @@ class Sqlite {
        
        print("get data")
        return arr
-       
-       
-        
     }
    static func delteData(id:Int,name:String) {
        let q = "DELETE FROM Students WHERE id = \(id)"
@@ -68,8 +58,6 @@ class Sqlite {
        sqlite3_step(tabel)
        print("delet data")
        
-       
-        
     }
     
 }
